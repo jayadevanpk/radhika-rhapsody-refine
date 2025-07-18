@@ -58,8 +58,7 @@ const ContactSection = () => {
                 </div>
               </CardContent>
             </Card>
-
-           
+          </div>
 
           {/* CTA Section */}
           <div className="animate-scale-in" style={{animationDelay: '0.4s'}}>
