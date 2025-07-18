@@ -59,30 +59,7 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            <div className="space-y-4">
-              <h3 className="text-xl font-display font-semibold text-foreground">
-                What We Offer
-              </h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Concert Performances</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Music Lessons (Basic to Advanced)</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Academic Collaborations</span>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-primary rounded-full"></div>
-                  <span>Workshop & Lecture Demonstrations</span>
-                </li>
-              </ul>
-            </div>
-          </div>
+           
 
           {/* CTA Section */}
           <div className="animate-scale-in" style={{animationDelay: '0.4s'}}>
