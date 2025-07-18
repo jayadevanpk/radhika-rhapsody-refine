@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-music.jpg";
+import radhikaHero from "@/assets/radhika-hero.jpeg";
 
 const HeroSection = () => {
   return (
@@ -45,8 +45,8 @@ const HeroSection = () => {
           <div className="relative animate-scale-in">
             <div className="relative overflow-hidden rounded-2xl shadow-elegant">
               <img
-                src={heroImage}
-                alt="Musical elements representing Carnatic music tradition"
+                src={radhikaHero}
+                alt="Radhika Balakrishnan performing Carnatic music"
                 className="w-full h-[600px] object-cover transition-transform duration-700 hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>

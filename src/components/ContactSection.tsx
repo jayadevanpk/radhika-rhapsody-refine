@@ -86,13 +86,13 @@ const ContactSection = () => {
 
           {/* CTA Section */}
           <div className="animate-scale-in" style={{animationDelay: '0.4s'}}>
-            <Card className="p-8 shadow-elegant border-0 bg-gradient-primary text-primary-foreground">
+            <Card className="p-8 shadow-elegant border-0 bg-card/80 backdrop-blur-sm">
               <CardContent className="p-0 text-center space-y-8">
-                <h3 className="text-3xl font-display font-bold">
+                <h3 className="text-3xl font-display font-bold text-foreground">
                   Start Your Musical Journey
                 </h3>
                 
-                <p className="text-lg opacity-90 leading-relaxed">
+                <p className="text-lg text-muted-foreground leading-relaxed">
                   Whether you're looking to book a performance or begin learning the beautiful 
                   art of Carnatic music, we're here to help you take the next step.
                 </p>
@@ -100,13 +100,12 @@ const ContactSection = () => {
                 <div className="space-y-4">
                   <Button 
                     size="lg" 
-                    variant="secondary"
-                    className="w-full bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-soft text-lg font-medium py-6"
+                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant hover:shadow-glow transition-all duration-300 text-lg font-medium py-6"
                   >
                     Contact Us
                   </Button>
                   
-                  <p className="text-sm opacity-80">
+                  <p className="text-sm text-muted-foreground">
                     Response within 24 hours
                   </p>
                 </div>
