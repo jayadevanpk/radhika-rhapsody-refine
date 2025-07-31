@@ -7,15 +7,16 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
-  console.log('Index page is rendering...');
-  
+  // Force refresh for updated images
   return (
     <div className="min-h-screen">
-      <div style={{ padding: '20px', fontSize: '18px', color: 'blue' }}>
-        <h2>Index page loaded successfully!</h2>
-        <p>Now testing components one by one...</p>
-      </div>
       <Navigation />
+      <HeroSection />
+      <AboutSection />
+      <ShowcaseSection />
+      <TestimonialsSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 };
