@@ -12,10 +12,18 @@ const App = () => {
   console.log('App component is rendering...');
   
   return (
-    <div style={{ padding: '20px', fontSize: '24px', color: 'red' }}>
-      <h1>TEST - App is working!</h1>
-      <p>If you see this, the app is loading correctly.</p>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <HashRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </HashRouter>
+      </TooltipProvider>
+    </QueryClientProvider>
   );
 };
 
