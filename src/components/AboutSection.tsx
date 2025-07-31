@@ -1,5 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import radhikaPerforming from "@/assets/radhika-performing.jpg";
+import musicalPerformance from "@/assets/musical-performance.jpg";
+import academicSetting from "@/assets/academic-setting.jpg";
+import teachingSession from "@/assets/teaching-session.jpg";
 
 const AboutSection = () => {
   return (
@@ -48,14 +52,14 @@ const AboutSection = () => {
             <div className="space-y-4">
               <div className="aspect-[4/5] bg-muted rounded-xl overflow-hidden shadow-soft">
                 <img
-                  src="https://radhikasings.com/wp-content/uploads/2024/07/Inside-Image-a-884x1024.jpg"
+                  src={radhikaPerforming}
                   alt="Radhika performing"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="aspect-[4/3] bg-muted rounded-xl overflow-hidden shadow-soft">
                 <img
-                  src="https://radhikasings.com/wp-content/uploads/2024/06/Inside-Image1-1024x683.jpg"
+                  src={musicalPerformance}
                   alt="Musical performance"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
@@ -65,14 +69,14 @@ const AboutSection = () => {
             <div className="space-y-4 mt-8">
               <div className="aspect-[4/3] bg-muted rounded-xl overflow-hidden shadow-soft">
                 <img
-                  src="https://radhikasings.com/wp-content/uploads/2024/06/Inside-Image3-1024x747.jpg"
+                  src={academicSetting}
                   alt="Academic setting"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="aspect-[4/5] bg-muted rounded-xl overflow-hidden shadow-soft">
                 <img
-                  src="https://radhikasings.com/wp-content/uploads/2024/07/Inside-Image-b-1-1024x683.jpg"
+                  src={teachingSession}
                   alt="Teaching session"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
