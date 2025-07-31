@@ -7,6 +7,8 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
+  console.log('Index page is rendering...');
+  
   // Force refresh for updated images
   return (
     <div className="min-h-screen">
