@@ -4,7 +4,7 @@ import gayanasamajLecture from "@/assets/gayana-samaj-lecture.jpg";
 import teacherTraining from "@/assets/teacher-training.jpg";
 import sarvaniConcert from "@/assets/sarvani-concert.jpg";
 
-const ShowcaseSection = () => {
+const ShowcaseSection = () => { // Updated images
   const showcaseItems = [
     {
       title: "East Side Jazz Club",
