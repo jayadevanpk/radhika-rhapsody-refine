@@ -12,19 +12,10 @@ const App = () => {
   console.log('App component is rendering...');
   
   return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <HashRouter>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </HashRouter>
-      </TooltipProvider>
-    </QueryClientProvider>
+    <div style={{ padding: '20px', fontSize: '24px', color: 'red' }}>
+      <h1>TEST - App is working!</h1>
+      <p>If you see this, the app is loading correctly.</p>
+    </div>
   );
 };
 
