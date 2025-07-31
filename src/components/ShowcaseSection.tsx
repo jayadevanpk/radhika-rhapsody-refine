@@ -1,33 +1,29 @@
 import { Card, CardContent } from "@/components/ui/card";
-import eastSideJazzClub from "@/assets/east-side-jazz-club.jpg";
-import gayanasamajLecture from "@/assets/gayana-samaj-lecture.jpg";
-import teacherTraining from "@/assets/teacher-training.jpg";
-import sarvaniConcert from "@/assets/sarvani-concert.jpg";
 
 const ShowcaseSection = () => { // Updated images
   const showcaseItems = [
     {
       title: "East Side Jazz Club",
       description: '"Global Traditions: A concert series of folk music from around the world" hosted by Royal Birmingham Conservatoire.',
-      image: eastSideJazzClub,
+      image: "/lovable-uploads/c5219dcb-1805-4ac9-9a6d-82368802f296.png",
       category: "Performance"
     },
     {
       title: "Lecture Demo",
       description: "Lecture demo on the influence of Nagaswaram on Carnatic Music with Vid K N Surendra at Gayana Samaja, Bangalore.",
-      image: gayanasamajLecture,
+      image: "/lovable-uploads/6f3651fa-33a1-407b-a4e5-2f18095446cd.png",
       category: "Academic"
     },
     {
       title: "Teacher's Training",
       description: "Teacher's training for ARCO Project teachers who train Sunshine Orchestra, founded by A R Rahman.",
-      image: teacherTraining,
+      image: "/lovable-uploads/60bd2ed3-cb9c-4e9c-bb14-1a0ba1ffdf33.png",
       category: "Education"
     },
     {
       title: "Carnatic Concerts",
       description: "Performing a carnatic music concert at the Sarvani Sangeeth Sabha, Bangalore",
-      image: sarvaniConcert,
+      image: "/lovable-uploads/cf799458-3add-4559-b5ea-1af74f220c7b.png",
       category: "Performance"
     }
   ];

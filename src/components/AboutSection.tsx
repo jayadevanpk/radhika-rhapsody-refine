@@ -1,9 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import radhikaPerforming from "@/assets/radhika-performing.jpg";
-import musicalPerformance from "@/assets/musical-performance.jpg";
-import academicSetting from "@/assets/academic-setting.jpg";
-import teachingSession from "@/assets/teaching-session.jpg";
 
 const AboutSection = () => {
   return (
@@ -52,14 +48,14 @@ const AboutSection = () => {
             <div className="space-y-4">
               <div className="aspect-[4/5] bg-muted rounded-xl overflow-hidden shadow-soft">
                 <img
-                  src={radhikaPerforming}
+                  src="/lovable-uploads/79a0ffdb-4b8e-49e1-937a-37953f4909c4.png"
                   alt="Radhika performing"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="aspect-[4/3] bg-muted rounded-xl overflow-hidden shadow-soft">
                 <img
-                  src={musicalPerformance}
+                  src="/lovable-uploads/4d143d5a-b66b-45e6-93c6-b6f51be63009.png"
                   alt="Musical performance"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
@@ -69,14 +65,14 @@ const AboutSection = () => {
             <div className="space-y-4 mt-8">
               <div className="aspect-[4/3] bg-muted rounded-xl overflow-hidden shadow-soft">
                 <img
-                  src={academicSetting}
+                  src="/lovable-uploads/79759feb-da79-436b-9782-f8f21fec383d.png"
                   alt="Academic setting"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <div className="aspect-[4/5] bg-muted rounded-xl overflow-hidden shadow-soft">
                 <img
-                  src={teachingSession}
+                  src="/lovable-uploads/0e5abfa7-ef6e-4e87-bbc8-fb19c8133306.png"
                   alt="Teaching session"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
