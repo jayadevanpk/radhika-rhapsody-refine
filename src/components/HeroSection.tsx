@@ -3,7 +3,7 @@ import radhikaHero from "@/assets/radhika-hero.jpeg";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background with gradient overlay */}
       <div className="absolute inset-0 bg-gradient-elegant"></div>
       
@@ -28,6 +28,7 @@ const HeroSection = () => {
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant hover:shadow-glow transition-all duration-300 px-8 py-6 text-lg font-medium"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Contact Us
               </Button>
@@ -35,6 +36,7 @@ const HeroSection = () => {
                 variant="outline" 
                 size="lg"
                 className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 px-8 py-6 text-lg font-medium"
+                onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Learn More
               </Button>
